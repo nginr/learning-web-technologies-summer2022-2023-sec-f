@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Password Recovery</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <form>
+            <h1>Recover Your Password</h1>
+
+            <table>
+                <tr>
+                    <td> <b>Student ID:</b> </td>
+                    <td>
+                        <input type="tel" id="sid" name="sid"
+                               pattern="[0-9]{2}-[0-9]{5}-[0-9]{1}"
+                               placeholder="xx-xxxxx-x"
+                               required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Password:</b></td>
+                    <td>
+                        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Re-type Password:</b></td>
+                    <td>
+                        <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+                    </td>
+                </tr>
+            </table>
+
+            <button type="submit">Reset password</button>
+            <a href="login.html">Login</a>
+
+        </form>
+    </body>
+</html>

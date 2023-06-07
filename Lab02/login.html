@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <form>
+            <h1>Login</h1>
+            <table>
+                <tr>
+                    <td><b>ID:</b></td>
+                    <td>
+                        <input type="tel" id="sid" name="sid"
+                               pattern="[0-9]{2}-[0-9]{5}-[0-9]{1}"
+                               placeholder="xx-xxxxx-x" >
+                    </td>
+                </tr>
+                <tr>
+                    <tr>
+                        <td> <b>Password:</b> </td>
+                        <td>
+                            <input type="password" placeholder="Enter Password" name="psw" id="psw">
+                        </td>
+                    </tr>
+                </tr>
+            </table>
+            <a href="passRecovery.html">Forgot Password?</a><br>
+            <button><a href="home.html">Login</a></button>
+            <a href="registration.html">Signup</a><br>
+        </form>
+    </body>
+</html>
