@@ -8,7 +8,7 @@ $nums = [
 
 $rows = count($nums);
 
-print("<table style=\"width: 200px; height: 100px\" border=\"1\">");
+print("<table>");
     print("<tr>");
 
 print("<td>");
@@ -40,6 +40,10 @@ print("<style>");
 print("table, th, td {");
   print("border: 1px solid black;");
   print("border-collapse: collapse;");
+print("}");
+print("table {");
+  print("width: 200px;");
+  print("height: 100px;");
 print("}");
 print("</style>");
 

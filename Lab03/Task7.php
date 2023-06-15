@@ -2,7 +2,7 @@
 
 $rows = 5;
 
-print("<table border=\"1\">");
+print("<table>");
     print("<tr>");
 
 print("<td>");
@@ -39,6 +39,10 @@ print("<style>");
 print("table, th, td {");
   print("border: 1px solid black;");
   print("border-collapse: collapse;");
+print("}");
+print("table {");
+  print("width: 200px;");
+  print("height: 100px;");
 print("}");
 print("</style>");
 
