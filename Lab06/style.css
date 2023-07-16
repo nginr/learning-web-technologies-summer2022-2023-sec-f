@@ -1,0 +1,38 @@
+#topnav {
+    padding: 10px;
+}
+
+.navref {
+    color: blue;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+fieldset {
+    width:350px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+th, .take {
+  background-color: #f2f2f2;
+}
+
+#addprod {
+  text-align: left;
+  border-bottom: 0px;
+}
+
+#distable {
+    width: 320px;
+}
