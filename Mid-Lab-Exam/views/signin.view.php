@@ -1,6 +1,6 @@
 <fieldset>
     <legend><b> LOGIN </b></legend>
-    <form action="../controllers/login.controller.php">
+    <form action="../controllers/login.controller.php" method="post">
         <table>
             <tr>
                 <td>User Id</td>

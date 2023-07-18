@@ -8,13 +8,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         header('Location: ../views/signin.view.php?msg=noemptyallowed');
         exit();
     } else {
-        require_once 'users.controller.php';
+        require_once 'user.controller.php';
         $uc = new UserController();
-        if ($uc->registerUser($userid, $psw, $name, $usertype) == true) {
-            header('Location: ../views/signin.view.php?msg=registrationsuccess');
+        if ($uc->authenticate($userid, $psw) == true) {
+            header('Location: ../views/home.view.php');
             exit();
         }
-        header('Location: ../views/signin.view.php?msg=registrationfailure');
+        header('Location: ../views/signin.view.php?msg=erroridpsw');
         exit();
     }
 } else {

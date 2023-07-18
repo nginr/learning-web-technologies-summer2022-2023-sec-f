@@ -14,7 +14,11 @@ class UserController
     }
 
     public function authenticate($id, $psw) {
-        // TOD: implement login functionality
+        $currentuser = $this->getUserInfo($id);
+        if ($currentuser['password'] == $psw) {
+            return true;
+        }
+        return false;
     }
 
     public function registerUser($id, $password, $name, $type)
