@@ -13,7 +13,8 @@ class UserController
         $this->usersInfo = $this->userModel->getUsers();
     }
 
-    public function authenticate($id, $psw) {
+    public function authenticate($id, $psw)
+    {
         $currentuser = $this->getUserInfo($id);
         if ($currentuser['password'] == $psw) {
             return true;
@@ -42,5 +43,10 @@ class UserController
             }
         }
         return null;
+    }
+
+    public function getUsers()
+    {
+        return $this->usersInfo;;
     }
 }
