@@ -1,3 +1,7 @@
+<?php
+include 'includes/header.inc.php';
+?>
+
 <div class="centerdiv">
     <fieldset>
         <legend><b> REGISTRATION </b></legend>
@@ -33,3 +37,7 @@
         </form>
     </fieldset>
 </div>
+
+<?php
+include 'includes/footer.inc.php';
+?>
