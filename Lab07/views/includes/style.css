@@ -1,0 +1,53 @@
+.centerdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#topnav {
+    padding-bottom: 10px;
+}
+
+.navref {
+    color: blue;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+fieldset {
+    width:350px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+}
+
+#addemp {
+  text-align: left;
+}
+
+#distable {
+    width: 600px;
+}
+
+#leftal {
+  text-align: left;
+}
+
+#leftpad {
+  text-align: left;
+  padding-left: 50px;
+}
+
+#rightal {
+  text-align: right;
+}
