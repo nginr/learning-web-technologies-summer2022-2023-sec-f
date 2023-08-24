@@ -12,18 +12,18 @@ include 'includes/header.inc.php';
             </tr>
             <tr>
                 <td> ID </td>
-                <td> </td>
+                <td> XXXXX </td>
             </tr>
             <tr>
                 <td> NAME </td>
-                <td> </td>
+                <td> Horn </td>
             </tr>
             <tr>
                 <td> USER TYPE </td>
-                <td> </td>
+                <td> Admin </td>
             </tr>
             <tr>
-                <td colspan="2"> <a href="home.view.php">Go Home</a> </td>
+                <td colspan="2" style="text-align: right;"> <a href="home.view.php">Go Home</a> </td>
             </tr>
         </table>
     </fieldset>

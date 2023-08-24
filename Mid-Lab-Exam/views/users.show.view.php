@@ -31,7 +31,7 @@ include 'includes/header.inc.php';
                 ?>
 
                 <tr>
-                    <td colspan="3"> <a href="home.view.php">Go Home</a> </td>
+                    <td colspan="3" style="text-align: right;"> <a href="home.view.php">Go Home</a> </td>
                 </tr>
             </table>
         </fieldset>
